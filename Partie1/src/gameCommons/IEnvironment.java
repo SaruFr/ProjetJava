@@ -20,7 +20,7 @@ public interface IEnvironment {
 	 * @param c
 	 * @return vrai si la case est une case de victoire
 	 */
-	public boolean         (Case c);
+	public boolean isWinningPosition(Case c);
 
 	/**
 	 * Effectue une �tape d'actualisation de l'environnement
